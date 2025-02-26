@@ -1,5 +1,3 @@
-``` 
-python
 import pandas as pd
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
@@ -22,4 +20,3 @@ anova_p_value = anova_table["PR(>F)"][0]
 print("\n=== Hasil Uji ANOVA ===")
 print(anova_table)
 print(f"\nP-Value: {anova_p_value:.5f}")
-```
